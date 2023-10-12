@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="CSS/portfolio_style.css"/>
+    <!-- <link rel="stylesheet" href="calculator_styles.css"> -->
+    <script
+      src="https://kit.fontawesome.com/3372b9b00f.js"crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/main-logo.png" class="logo" alt="image not found" />
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li> 
+            <!-- <i class="fa-solid fa-xmark"></i> -->
+          </ul>
+          <!-- <i class="fa-solid fa-bars"></i> -->
+        </nav>
+        <div class="header-text">
+          <p>Frontend Web Developer</p>
+          <h1>
+            Hi, I'm <span>Praween Kumar</span><br />
+            from Bihar
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ...............About........ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user3.jpg" alt="image not found" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello! I'm Praween Kumar, and I'm passionate about web development, UI/UX Design. I believe in the power of Integrity, Respect, Teamwork, Responsibility to drive positive change and make a difference in the world. Professionally, I am a web developer, UI/UX Design with over 0 year of experience. My journey in this field has been marked by a deep commitment to creating user-centric websites. 
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Internship</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li><span>Python</span><br />Python programming language</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>08 July 2022 - 11 September 2022</span><br />Internship
+                  at Whizzo Infotech Pvt. Ltd.
+                </li>
+                <!-- <li>
+                  <span>18 October 2022 - 08 December 2022</span><br />Digital
+                  Marketing
+                </li>
+                <li>
+                  <span>07 May 2022 - 09 May 2022</span><br />Participation in
+                  KIIT Internship Camp
+                </li> -->
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2018</span><br />Matriculation from J.N.M.Sr.Sec. School
+                  with 61%
+                </li>
+                <li>
+                  <span>2021</span><br />Diploma from KIIT POLYTECHNIC with 76%
+                </li>
+                <li>
+                  <span>2021 - Current</span><br />Pursuing B.Tech from KIIT
+                  UNIVERSITY, Bhubaneshwar
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- .....................My services....................... -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              "Design visually stunning and user-centric web interfaces. Craft engaging layouts, optimize user experiences, and ensure cross-browser compatibility. Collaborate with cross-functional teams, adhere to design guidelines, and stay updated on industry trends to create impactful web designs."
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              "Craft seamless UI/UX designs. Prioritize user satisfaction, intuitive navigation, and delightful interactions. Collaborate across teams, maintain design consistency, and stay updated on UX trends to deliver exceptional UI/UX experiences."
+            </p>
+            <a href="https://en.wikipedia.org/wiki/User_interface_design" target="_blank">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              "Create intuitive and visually appealing app interfaces. Focus on user-centered design, streamline navigation, and optimize interactions. Collaborate with cross-functional teams, adhere to design principles, and keep abreast of industry trends to deliver compelling app designs."
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Application_development" target="_blank">Learn more</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- .............................Portfolio..................... -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Calculator3.png" alt="no image found" />
+            <div class="layer">
+              <h3>Calculator</h3>
+              <p>
+                "Precision and ease meet in our fully functional calculator, simplifying complex calculations with user-friendly design."
+              </p>
+              <a href="calculator_index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work-2.png" alt="no image found" />
+            <div class="layer">
+              <h3> Music App</h3>
+              <p>
+                "Unleash music bliss: our player offers ease, playlists, and discovery for an immersive listening experience."
+              </p>
+              <a href="music player.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work-3.png" alt="no image found" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                
+                "Discover the ultimate shopping destination. Explore a wide range of products, enjoy secure transactions, and exceptional customer service." 
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+<!-- ........................Contact............ -->
+<div id="contact">
+<div class="container">
+  <div class="row">
+    <div class="contact-left">
+      <h1 class="sub-title">Contact Me</h1>
+       <p><i class="fa-sharp fa-regular fa-envelope"></i> praweenkumar41022@gmail.com</p>
+       <p><i class="fa-sharp fa-solid fa-paper-plane"></i> 21053038@kiit.ac.in</p>
+       <p><i class="fa-solid fa-phone-volume"></i> 7667894223</p>
+       <div class="social-icons">
+        <a href="https://www.facebook.com/praween.kumar.14606" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/Praween_0818" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/praweenchandravanshi/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="http://www.linkedin.com/in/praween-kumar-629391176" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    
+       </div>
+       
+       <a href="images/PRAWEEN-RESUME.pdf" download class="btn btn2" target ="_blank">Download Cv</a>
+
+
+    </div>
+<!-- .............Form.............. -->
+
+    <div class="contact-right">
+
+      <form name="submit-to-google-sheet">
+        <input type="text" name="Name" id="" placeholder="Your Name " required>
+        <input type="email" name="Email" id="" placeholder="Your Email" required>
+        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+         <button type="submit" class="btn btn2">Submit</button>
+      </form>
+      <span id="msg"></span>
+
+    </div>
+  </div>
+
+  <!-- ...................Copyright............ -->
+
+<div class="copyright">
+  <p>© Praween Kumar</p>
+</div>
+</div>
+
+</div>
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxRh6TPlMmTBpbqJzI8v3eD3KWCVT15Y5cmR1jlyfzAdCIlEvvJIPbA01KFv9hDWHxH/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")   
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+        
+          },5000)
+
+          // 5000
+          form.reset()
+        })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
